@@ -12,7 +12,7 @@ const calculateLove = () => {
 
 	if (yourName != "" && crushName != "") {
 		let percentage = Math.floor(Math.random() * 101);
-		document.getElementById("result-message").innerText = yourName + "and" + crushName + "'s chance of love: " ; 
+		document.getElementById("result-message").innerText = yourName + " " + "and" + " " + crushName + "'s chance of love: " ; 
 		document.getElementById("result-percentage").innerText = percentage.toString() + "%";
 
 
